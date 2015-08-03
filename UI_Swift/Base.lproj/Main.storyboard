@@ -17,8 +17,8 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vl5-sZ-aUJ">
-                                <rect key="frame" x="16" y="9" width="117" height="30"/>
-                                <state key="normal" title="To Second View">
+                                <rect key="frame" x="12" y="9" width="93" height="30"/>
+                                <state key="normal" title="Second View">
                                     <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -168,13 +168,33 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TBk-9n-gVg">
-                                <rect key="frame" x="163" y="9" width="114" height="30"/>
-                                <state key="normal" title="To Third View">
+                                <rect key="frame" x="123" y="9" width="73" height="30"/>
+                                <state key="normal" title="Third View">
                                     <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="nGI-bU-Zqt" kind="show" identifier="UIButton_ToThirdView" id="vbb-Na-SML"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVt-K9-Zr3">
+                                <rect key="frame" x="213" y="9" width="84" height="30"/>
+                                <state key="normal" title="Fourth View">
+                                    <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ead-ff-0NP" kind="show" identifier="UIButton_ToFourthView" id="cSp-b0-rQK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5I-qP-5vb">
+                                <rect key="frame" x="9" y="39" width="114" height="30"/>
+                                <state key="normal" title="Collection View">
+                                    <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="KyO-PB-nqV" kind="show" identifier="UIButton_collectionview" id="Sne-JI-9pX"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -207,8 +227,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JsJ-Lh-b0c">
-                                <rect key="frame" x="16" y="11" width="108" height="30"/>
-                                <state key="normal" title="To Main View">
+                                <rect key="frame" x="16" y="11" width="79" height="30"/>
+                                <state key="normal" title="Main View">
                                     <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -289,13 +309,23 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKe-Wp-2RZ">
-                                <rect key="frame" x="137" y="11" width="110" height="30"/>
-                                <state key="normal" title="To Third View">
+                                <rect key="frame" x="117" y="11" width="75" height="30"/>
+                                <state key="normal" title="Third View">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="nGI-bU-Zqt" kind="show" identifier="UIButton_ToThirdView" id="2i7-SL-NKR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRc-ix-vdA">
+                                <rect key="frame" x="215" y="11" width="83" height="30"/>
+                                <state key="normal" title="Fourth View">
+                                    <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ead-ff-0NP" kind="show" identifier="UIButton_ToFourthView" id="L97-TP-FyB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -330,8 +360,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YU1-Dq-KGH">
-                                <rect key="frame" x="16" y="10" width="97" height="30"/>
-                                <state key="normal" title="To Main View">
+                                <rect key="frame" x="16" y="10" width="80" height="30"/>
+                                <state key="normal" title="Main View">
                                     <color key="titleColor" red="0.11695984899163836" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -340,8 +370,8 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YTW-bn-x15">
-                                <rect key="frame" x="130" y="10" width="119" height="30"/>
-                                <state key="normal" title="To Second View">
+                                <rect key="frame" x="104" y="10" width="93" height="30"/>
+                                <state key="normal" title="Second View">
                                     <color key="titleColor" red="0.11695984899163836" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -393,21 +423,250 @@
                                 <color key="textColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="電影選取" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W4b-6i-pe9">
+                                <rect key="frame" x="77" y="335" width="285" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ch1-Bt-cC3">
+                                <rect key="frame" x="10" y="364" width="139" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9F-Ke-kvY">
+                                <rect key="frame" x="157" y="364" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="新增">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="insert:" destination="nGI-bU-Zqt" eventType="touchUpInside" id="Z9f-BF-fwR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="改變順序" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXz-ox-6cK">
+                                <rect key="frame" x="233" y="368" width="70" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="h5B-e9-dKk">
+                                <rect key="frame" x="313" y="363" width="51" height="31"/>
+                                <connections>
+                                    <action selector="valueChange:" destination="nGI-bU-Zqt" eventType="valueChanged" id="hBV-vh-sm5"/>
+                                </connections>
+                            </switch>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="99p-kW-tjr">
+                                <rect key="frame" x="10" y="408" width="367" height="184"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="moviecell" textLabel="jeh-Mb-v9l" style="IBUITableViewCellStyleDefault" id="hlt-TJ-w6t">
+                                        <rect key="frame" x="0.0" y="0.0" width="367" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hlt-TJ-w6t" id="SIc-4t-zUV">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="jeh-Mb-v9l">
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="nGI-bU-Zqt" id="E6Q-Vb-h6K"/>
+                                    <outlet property="delegate" destination="nGI-bU-Zqt" id="gO0-Am-Z2j"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sRh-Hq-vzg">
+                                <rect key="frame" x="211" y="10" width="84" height="30"/>
+                                <state key="normal" title="Fourth View">
+                                    <color key="titleColor" red="0.116959849" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="ead-ff-0NP" kind="show" identifier="UIButton_ToFourthView" id="1st-CN-tXm"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.99496499683329587" green="0.89057956276200878" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="UILabel_movie" destination="W4b-6i-pe9" id="28b-gc-3UG"/>
                         <outlet property="UILabel_select" destination="k0V-2K-BCd" id="yVy-9W-j3h"/>
+                        <outlet property="UITableView_ball" destination="cd5-De-y0z" id="KzZ-z1-fDy"/>
+                        <outlet property="UITableView_movie" destination="99p-kW-tjr" id="8wf-XN-DcI"/>
+                        <outlet property="UITextView_movie" destination="ch1-Bt-cC3" id="zKl-Jh-HPG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEv-QI-Mzs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1045" y="701"/>
+            <point key="canvasLocation" x="1047" y="701"/>
+        </scene>
+        <!--Collection View Controller-->
+        <scene sceneID="zM5-PP-l6e">
+            <objects>
+                <collectionViewController id="KyO-PB-nqV" customClass="CollectionViewController" customModule="UI_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="zXB-oD-S8j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="iQZ-4u-g1o">
+                            <size key="itemSize" width="150" height="150"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="IqA-Mo-cbi" customClass="CollectionCustomCell" customModule="UI_Swift" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="di5-ZC-kN7">
+                                            <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4y5-4k-Jcn">
+                                            <rect key="frame" x="27" y="112" width="99" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <connections>
+                                    <outlet property="UIImageView_image" destination="di5-ZC-kN7" id="bik-Ek-dHu"/>
+                                    <outlet property="UILabel_name" destination="4y5-4k-Jcn" id="9jC-gf-sL9"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="KyO-PB-nqV" id="eyr-qu-v1g"/>
+                            <outlet property="delegate" destination="KyO-PB-nqV" id="Q2x-Ta-Uyn"/>
+                        </connections>
+                    </collectionView>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="show" identifier="toMainView" id="fyN-Jn-wSX"/>
+                    </connections>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KNI-6g-ZFV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291" y="1473"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="t8B-MF-0cu">
+            <objects>
+                <viewController id="ead-ff-0NP" customClass="FourthViewController" customModule="UI_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1AS-fC-Qjz"/>
+                        <viewControllerLayoutGuide type="bottom" id="rgO-CR-KOc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sLO-GV-fTN">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ya1-4L-VJ7">
+                                <rect key="frame" x="10" y="9" width="83" height="30"/>
+                                <state key="normal" title="Main View">
+                                    <color key="titleColor" red="1" green="0.41467492818258667" blue="0.021895913784047982" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" identifier="UIButton_ToMainView" id="d05-c3-CFc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iD1-jx-i6j">
+                                <rect key="frame" x="108" y="9" width="104" height="30"/>
+                                <state key="normal" title="Second View">
+                                    <color key="titleColor" red="1" green="0.41467492820000001" blue="0.021895913780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Nxg-h9-IMo" kind="show" identifier="UIButton_ToThirdView" id="DYB-Iy-zee"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="目前選擇" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hbR-w6-q5f">
+                                <rect key="frame" x="32" y="47" width="319" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="59" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="c7K-XC-qOm">
+                                <rect key="frame" x="16" y="81" width="347" height="211"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="59" id="b2J-wM-HQP" customClass="CustomCell" customModule="UI_Swift" customModuleProvider="target">
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="b2J-wM-HQP" id="AOZ-C1-9jj">
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nqT-v8-98Q">
+                                                    <rect key="frame" x="15" y="4" width="50" height="50"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WC8-tF-3hN">
+                                                    <rect key="frame" x="79" y="4" width="69" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <color key="textColor" red="0.116959849" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLx-kc-0mI">
+                                                    <rect key="frame" x="79" y="33" width="42" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="UIImageView_name" destination="nqT-v8-98Q" id="5Yc-hA-fxb"/>
+                                            <outlet property="UILabel_name" destination="WC8-tF-3hN" id="cMr-Jb-Y78"/>
+                                            <outlet property="UILabel_value" destination="OLx-kc-0mI" id="iQv-cW-lbz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="ead-ff-0NP" id="vG7-JC-Rrz"/>
+                                    <outlet property="delegate" destination="ead-ff-0NP" id="ks1-aM-DnZ"/>
+                                </connections>
+                            </tableView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_____________________________________________________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fSf-By-cEV">
+                                <rect key="frame" x="0.0" y="300" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.013703861960000001" blue="0.95162617930000004" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mNk-tV-Vv7">
+                                <rect key="frame" x="220" y="9" width="78" height="30"/>
+                                <state key="normal" title="Third View">
+                                    <color key="titleColor" red="1" green="0.41467492820000001" blue="0.021895913780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="nGI-bU-Zqt" kind="show" identifier="UIButton_ToSecondView" id="fn9-iZ-K7M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73503786868315657" green="1" blue="0.86506092469035678" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="UILabel_select" destination="hbR-w6-q5f" id="Wtx-sQ-Euh"/>
+                        <outlet property="UITableView_flower" destination="c7K-XC-qOm" id="chW-BH-eN5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hEP-53-SZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047" y="1473"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="b3s-G7-mMK"/>
-        <segue reference="2i7-SL-NKR"/>
-        <segue reference="3CN-Zw-jVk"/>
+        <segue reference="fyN-Jn-wSX"/>
+        <segue reference="daZ-lf-Khm"/>
+        <segue reference="cSp-b0-rQK"/>
+        <segue reference="vbb-Na-SML"/>
     </inferredMetricsTieBreakers>
 </document>
