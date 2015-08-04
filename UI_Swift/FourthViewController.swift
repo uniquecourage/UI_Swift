@@ -8,10 +8,23 @@
 
 import UIKit
 
-class FourthViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class FourthViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UIAlertViewDelegate {
     
     @IBOutlet weak var UILabel_select: UILabel!
     @IBOutlet weak var UITableView_flower: UITableView!
+   
+    @IBOutlet weak var UIVIew_button: UIView!
+    @IBOutlet weak var UILabel_result: UILabel!
+    var buttonTitle:String = ""
+    
+    @IBOutlet weak var UIView_login: UIView!
+    @IBOutlet weak var UILabel_login: UILabel!
+    let UserName1:String = "John"
+    let Password1:String = "1234"
+    let UserName2:String = "Mary"
+    let Password2:String = "4321"
+    var alertView1:UIAlertView = UIAlertView()
+    var alertView2:UIAlertView = UIAlertView()
     
     var arrFlowers:Array<Flower> = []
     
@@ -19,6 +32,10 @@ class FourthViewController: UIViewController, UITableViewDataSource, UITableView
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.setupFlowers()
+        
+        //設定圓角按鈕
+        UIVIew_button.layer.cornerRadius = 10 //圓角角度
+        UIView_login.layer.cornerRadius = 10 //圓角角度
     }
     
     override func didReceiveMemoryWarning() {
@@ -75,4 +92,91 @@ class FourthViewController: UIViewController, UITableViewDataSource, UITableView
             
         }
     }
+    
+    @IBAction func UIButton_alert1(sender: UIButton) {
+        // 以建構式建立
+        var alertView:UIAlertView = UIAlertView(title: "確認視窗", message: "以建構式建立", delegate:nil, cancelButtonTitle: "取消", otherButtonTitles: "確定")
+        alertView.show()
+    }
+    
+    @IBAction func UIButton_alert2(sender: UIButton) {
+        // 建立物件並設定其屬性和按鈕
+        var alertView:UIAlertView = UIAlertView()
+        alertView.title = "確認視窗"
+        alertView.message = "建立物件並設定其屬性和按鈕"
+        alertView.delegate = nil
+        alertView.addButtonWithTitle("取消")
+        alertView.addButtonWithTitle("確定")
+        alertView.show()
+    }
+    
+    @IBAction func UIButton_alertaction(sender: UIButton) {
+        // 建立物件並定其屬性和按鈕
+        var alertView:UIAlertView = UIAlertView()
+        alertView.title = "確認視窗"
+        alertView.message = "取得按鈕文字"
+        alertView.delegate = self
+        alertView.addButtonWithTitle("取消")
+        alertView.addButtonWithTitle("確定")
+        alertView.show()
+        alertView1 = alertView
+    }
+    
+    func alertView(alertView: UIAlertView, clickedButtonAtIndex buttonIndex: Int) {
+        // 分別針對不同的alertView做處理
+        if alertView == alertView1 {
+            //取得按鈕的文字
+            buttonTitle = alertView.buttonTitleAtIndex(buttonIndex)
+            UILabel_result.text = "已按下 \(buttonTitle) 按鈕!"
+            switch (buttonIndex) {
+            case 0: //按下取消鈕的處理
+                println("取消")
+                break
+            case 1: //按下確定鈕的處理
+                println("確定")
+                break
+            default: //其他狀況
+                println("錯誤")
+            }
+        } else {
+            switch (buttonIndex) {
+            case 0:
+                // 取消
+                break
+            case 1:
+                // 登入
+                var textUserName:UITextField! = alertView.textFieldAtIndex(0)
+                var textPassword:UITextField! = alertView.textFieldAtIndex(1)
+                if (UserName1 == textUserName.text && Password1 == textPassword.text) {
+                    UILabel_login.text = "歡迎光臨 : \(textUserName.text)"
+                } else if (UserName2 == textUserName.text && Password2 == textPassword.text) {
+                    UILabel_login.text = "歡迎光臨 : \(textUserName.text)"
+                } else {
+                    UILabel_login.text = "帳號或密碼錯誤"
+                }
+                break
+            default:
+                //其他
+                println("錯誤")
+                break
+            }
+        }
+
+    }
+    
+    
+    @IBAction func UIButtin_login(sender: UIButton) {
+        // 以建構式建立對話方塊
+        var alertView = UIAlertView(title: "登入",
+            message: "歡迎光臨",
+            delegate: self,
+            cancelButtonTitle: "取消",
+            otherButtonTitles: "登入"
+        )
+        // 可輸入帳號和密碼
+        alertView.alertViewStyle = UIAlertViewStyle.LoginAndPasswordInput
+        alertView.show()
+        alertView2 = alertView
+    }
+    
 }

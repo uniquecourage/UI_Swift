@@ -650,12 +650,80 @@
                                     <segue destination="nGI-bU-Zqt" kind="show" identifier="UIButton_ToSecondView" id="fn9-iZ-K7M"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMX-Va-Zbv">
+                                <rect key="frame" x="16" y="329" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="顯示對話方塊(一)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton_alert1:" destination="ead-ff-0NP" eventType="touchUpInside" id="smP-oC-Xln"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="po0-GA-3nN">
+                                <rect key="frame" x="16" y="367" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="顯示對話方塊(二)">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton_alert2:" destination="ead-ff-0NP" eventType="touchUpInside" id="SIe-sN-UYz"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="顯示訊息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ylL-pJ-WIJ">
+                                <rect key="frame" x="183" y="400" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dod-Tq-K0Z">
+                                <rect key="frame" x="183" y="341" width="168" height="35"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CRH-Vz-8vb">
+                                        <rect key="frame" x="24" y="3" width="120" height="30"/>
+                                        <state key="normal" title="顯示對話事件">
+                                            <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="UIButton_alertaction:" destination="ead-ff-0NP" eventType="touchUpInside" id="jtG-Ff-ehC"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yMY-3t-ypw">
+                                <rect key="frame" x="16" y="446" width="189" height="36"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0BD-r0-0qe">
+                                        <rect key="frame" x="44" y="3" width="101" height="30"/>
+                                        <state key="normal" title="登錄系統">
+                                            <color key="titleColor" red="0.20269097222222221" green="0.18484796695213407" blue="0.0021269004228029937" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="UIButtin_login:" destination="ead-ff-0NP" eventType="touchUpInside" id="Wbb-1d-sV2"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="顯示訊息" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcE-g1-WMe">
+                                <rect key="frame" x="16" y="501" width="182" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.73503786868315657" green="1" blue="0.86506092469035678" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <connections>
+                        <outlet property="UILabel_login" destination="CcE-g1-WMe" id="iye-Rz-FpD"/>
+                        <outlet property="UILabel_result" destination="ylL-pJ-WIJ" id="rAr-XW-83s"/>
                         <outlet property="UILabel_select" destination="hbR-w6-q5f" id="Wtx-sQ-Euh"/>
                         <outlet property="UITableView_flower" destination="c7K-XC-qOm" id="chW-BH-eN5"/>
+                        <outlet property="UIVIew_button" destination="Dod-Tq-K0Z" id="Cu7-yV-pIn"/>
+                        <outlet property="UIView_login" destination="yMY-3t-ypw" id="fYU-jW-BMN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hEP-53-SZV" userLabel="First Responder" sceneMemberID="firstResponder"/>
