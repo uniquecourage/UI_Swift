@@ -19,6 +19,7 @@
 		CC934B131B5DEEE9004B6690 /* UI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934B121B5DEEE9004B6690 /* UI_SwiftTests.swift */; };
 		CC934B1D1B5DEFC6004B6690 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934B1C1B5DEFC6004B6690 /* SecondViewController.swift */; };
 		CC937E801B6A230600A43B26 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC937E7F1B6A230600A43B26 /* FourthViewController.swift */; };
+		CCBED1361B71A7E000F31395 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBED1351B71A7E000F31395 /* WebViewController.swift */; };
 		CCED36991B61EA9700A4708C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED36981B61EA9700A4708C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,7 @@
 		CC934B121B5DEEE9004B6690 /* UI_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_SwiftTests.swift; sourceTree = "<group>"; };
 		CC934B1C1B5DEFC6004B6690 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CC937E7F1B6A230600A43B26 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CCBED1351B71A7E000F31395 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CCED36981B61EA9700A4708C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 				CC0515841B6B21660068BBA9 /* Flower.swift */,
 				CC0515881B6B70690068BBA9 /* CollectionCustomCell.swift */,
 				CC05158A1B6B725C0068BBA9 /* CollectionViewController.swift */,
+				CCBED1351B71A7E000F31395 /* WebViewController.swift */,
 			);
 			path = UI_Swift;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				CC05158B1B6B725C0068BBA9 /* CollectionViewController.swift in Sources */,
 				CC0515851B6B21660068BBA9 /* Flower.swift in Sources */,
 				CC934B1D1B5DEFC6004B6690 /* SecondViewController.swift in Sources */,
+				CCBED1361B71A7E000F31395 /* WebViewController.swift in Sources */,
 				CC934AFF1B5DEEE9004B6690 /* ViewController.swift in Sources */,
 				CCED36991B61EA9700A4708C /* ThirdViewController.swift in Sources */,
 				CC0515891B6B70690068BBA9 /* CollectionCustomCell.swift in Sources */,

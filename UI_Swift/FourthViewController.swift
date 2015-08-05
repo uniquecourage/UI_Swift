@@ -26,6 +26,9 @@ class FourthViewController: UIViewController, UITableViewDataSource, UITableView
     var alertView1:UIAlertView = UIAlertView()
     var alertView2:UIAlertView = UIAlertView()
     
+    @IBOutlet weak var UITextField_num: UITextField!
+    
+    
     var arrFlowers:Array<Flower> = []
     
     override func viewDidLoad() {
@@ -179,4 +182,28 @@ class FourthViewController: UIViewController, UITableViewDataSource, UITableView
         alertView2 = alertView
     }
     
+    
+    @IBAction func UIButton_calcaulate(sender: UIButton) {
+        var n:Int? = UITextField_num.text.toInt()
+        if n != nil {
+            var total:Int = calcaulate(n!)
+            // 以建構式建立
+            var alertView:UIAlertView = UIAlertView(title: "執行結果", message: "\(total)", delegate:nil, cancelButtonTitle: "取消", otherButtonTitles: "確定")
+            alertView.show()
+
+        } else {
+            // 以建構式建立
+            var alertView:UIAlertView = UIAlertView(title: "執行結果", message: "型別錯誤!", delegate:nil, cancelButtonTitle: "取消", otherButtonTitles: "確定")
+            alertView.show()
+        }
+    }
+    
+    //求1+2+...+n之和
+    func calcaulate(n:Int) -> Int {
+        var sum:Int = 0
+        for var i:Int = 0; i <= n; i++ {
+            sum = sum + i
+        }
+        return sum
+    }
 }

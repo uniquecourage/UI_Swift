@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jjM-9h-DLH">
-                                <rect key="frame" x="36" y="68" width="69" height="30"/>
+                                <rect key="frame" x="36" y="72" width="69" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -38,7 +38,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fPV-rp-iL3">
-                                <rect key="frame" x="174" y="68" width="68" height="30"/>
+                                <rect key="frame" x="172" y="72" width="68" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
@@ -49,7 +49,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sra-Lt-cOz">
-                                <rect key="frame" x="113" y="101" width="46" height="30"/>
+                                <rect key="frame" x="113" y="107" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.87030460858585856" green="0.87030460858585856" blue="0.87030460858585856" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="+">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MS-6z-dkH">
-                                <rect key="frame" x="113" y="134" width="46" height="30"/>
+                                <rect key="frame" x="113" y="139" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="-">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -71,7 +71,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f3K-6A-sba">
-                                <rect key="frame" x="113" y="167" width="46" height="30"/>
+                                <rect key="frame" x="113" y="172" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="*">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -82,7 +82,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qci-Yx-3w7">
-                                <rect key="frame" x="241" y="101" width="46" height="30"/>
+                                <rect key="frame" x="243" y="107" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="=">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -92,12 +92,6 @@
                                     <action selector="UIButton_answer:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="zTy-0r-Z12"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l33-as-maB">
-                                <rect key="frame" x="279" y="72" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ayD-sw-A4U">
                                 <rect key="frame" x="16" y="244" width="128" height="128"/>
                             </imageView>
@@ -142,7 +136,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rT6-3T-T7g">
-                                <rect key="frame" x="113" y="200" width="46" height="30"/>
+                                <rect key="frame" x="113" y="205" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="/">
                                     <color key="titleColor" red="1" green="0.18127662520000001" blue="0.14797043469999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -197,6 +191,22 @@
                                     <segue destination="KyO-PB-nqV" kind="show" identifier="UIButton_collectionview" id="Sne-JI-9pX"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Udx-Yu-8Si">
+                                <rect key="frame" x="137" y="39" width="80" height="30"/>
+                                <state key="normal" title="Web View">
+                                    <color key="titleColor" red="0.18646686160000001" green="0.5" blue="0.06821331621" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="uVe-DJ-caM" kind="show" identifier="UIButton_ToWebView" id="PUU-gC-Onn"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l33-as-maB">
+                                <rect key="frame" x="279" y="72" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.88044962800000004" green="0.96025062940000006" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -212,7 +222,93 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="291" y="402"/>
+            <point key="canvasLocation" x="291" y="701"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="Bf8-CC-hiL">
+            <objects>
+                <viewController id="uVe-DJ-caM" customClass="WebViewController" customModule="UI_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0dM-Ie-zgp"/>
+                        <viewControllerLayoutGuide type="bottom" id="mFT-Z0-NA3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IVf-OE-lM1">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Di-ZD-OD6">
+                                <rect key="frame" x="16" y="6" width="91" height="30"/>
+                                <state key="normal" title="Main View">
+                                    <color key="titleColor" red="0.36287127666230357" green="0.0019572815308903646" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vXZ-lx-hvc" kind="show" identifier="UIButton_ToMainView" id="13H-rD-tDc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="_____________________________________________________________________" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g92-0q-N4g">
+                                <rect key="frame" x="0.0" y="38" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="T0I-uq-36Z">
+                                <rect key="frame" x="0.0" y="59" width="283" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XBR-S6-liG">
+                                <rect key="frame" x="291" y="59" width="53" height="30"/>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="瀏覽">
+                                    <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="GoClick:" destination="uVe-DJ-caM" eventType="touchUpInside" id="g3X-ue-IxF"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AQM-B2-Svy">
+                                <rect key="frame" x="0.0" y="90" width="344" height="428"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FY7-hG-YQ7">
+                                <rect key="frame" x="0.0" y="518" width="344" height="44"/>
+                                <items>
+                                    <barButtonItem systemItem="stop" id="cNw-Dw-HCY">
+                                        <connections>
+                                            <action selector="StopAction:" destination="uVe-DJ-caM" id="EPE-hJ-icy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="refresh" id="kki-HM-750">
+                                        <connections>
+                                            <action selector="RefreshAction:" destination="uVe-DJ-caM" id="upk-GI-d4x"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="KSM-li-zyn"/>
+                                    <barButtonItem systemItem="rewind" id="JB7-YU-xcb">
+                                        <connections>
+                                            <action selector="RewindAction:" destination="uVe-DJ-caM" id="3WY-l6-ra0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="fastForward" id="3op-Nl-w0e">
+                                        <connections>
+                                            <action selector="ForwardAction:" destination="uVe-DJ-caM" id="oAc-0y-sLY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.76055054105094699" green="1" blue="0.65279677332469022" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="UITextField_url" destination="T0I-uq-36Z" id="7tK-XE-gu7"/>
+                        <outlet property="UIWebView_url" destination="AQM-B2-Svy" id="OvT-Dz-WUR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iRt-ct-uh9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="291" y="-6"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="qd1-L9-d67">
@@ -714,6 +810,28 @@
                                 <color key="textColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="計算1+...+n" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k2B-Gg-wky">
+                                <rect key="frame" x="16" y="554" width="97" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ulh-Fs-gCe">
+                                <rect key="frame" x="115" y="550" width="60" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8jF-yZ-L1u">
+                                <rect key="frame" x="199" y="550" width="78" height="30"/>
+                                <color key="backgroundColor" red="0.87030460860000003" green="0.87030460860000003" blue="0.87030460860000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="計算">
+                                    <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton_calcaulate:" destination="ead-ff-0NP" eventType="touchUpInside" id="6JH-44-EQP"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.73503786868315657" green="1" blue="0.86506092469035678" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -722,6 +840,7 @@
                         <outlet property="UILabel_result" destination="ylL-pJ-WIJ" id="rAr-XW-83s"/>
                         <outlet property="UILabel_select" destination="hbR-w6-q5f" id="Wtx-sQ-Euh"/>
                         <outlet property="UITableView_flower" destination="c7K-XC-qOm" id="chW-BH-eN5"/>
+                        <outlet property="UITextField_num" destination="Ulh-Fs-gCe" id="kZM-3p-AOW"/>
                         <outlet property="UIVIew_button" destination="Dod-Tq-K0Z" id="Cu7-yV-pIn"/>
                         <outlet property="UIView_login" destination="yMY-3t-ypw" id="fYU-jW-BMN"/>
                     </connections>
@@ -732,9 +851,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="fyN-Jn-wSX"/>
-        <segue reference="daZ-lf-Khm"/>
+        <segue reference="13H-rD-tDc"/>
         <segue reference="cSp-b0-rQK"/>
         <segue reference="vbb-Na-SML"/>
+        <segue reference="daZ-lf-Khm"/>
     </inferredMetricsTieBreakers>
 </document>
