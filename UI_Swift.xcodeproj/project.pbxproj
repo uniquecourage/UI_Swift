@@ -11,6 +11,12 @@
 		CC0515851B6B21660068BBA9 /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0515841B6B21660068BBA9 /* Flower.swift */; };
 		CC0515891B6B70690068BBA9 /* CollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0515881B6B70690068BBA9 /* CollectionCustomCell.swift */; };
 		CC05158B1B6B725C0068BBA9 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC05158A1B6B725C0068BBA9 /* CollectionViewController.swift */; };
+		CC5BFB0F1B7D81AF006CBE20 /* MenuCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB0E1B7D81AF006CBE20 /* MenuCollectionViewController.swift */; };
+		CC5BFB111B7D989C006CBE20 /* MenuCollectionCustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB101B7D989C006CBE20 /* MenuCollectionCustomCell.swift */; };
+		CC5BFB131B7D9E0B006CBE20 /* FifthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB121B7D9E0B006CBE20 /* FifthViewController.swift */; };
+		CC5BFB151B7D9E40006CBE20 /* SixthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB141B7D9E40006CBE20 /* SixthViewController.swift */; };
+		CC5BFB171B7DE0BF006CBE20 /* HotelMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB161B7DE0BF006CBE20 /* HotelMapViewController.swift */; };
+		CC5BFB191B7DEB3F006CBE20 /* HotelSingle.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5BFB181B7DEB3F006CBE20 /* HotelSingle.swift */; };
 		CC934AFD1B5DEEE9004B6690 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934AFC1B5DEEE9004B6690 /* AppDelegate.swift */; };
 		CC934AFF1B5DEEE9004B6690 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934AFE1B5DEEE9004B6690 /* ViewController.swift */; };
 		CC934B021B5DEEE9004B6690 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC934B001B5DEEE9004B6690 /* Main.storyboard */; };
@@ -19,6 +25,8 @@
 		CC934B131B5DEEE9004B6690 /* UI_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934B121B5DEEE9004B6690 /* UI_SwiftTests.swift */; };
 		CC934B1D1B5DEFC6004B6690 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC934B1C1B5DEFC6004B6690 /* SecondViewController.swift */; };
 		CC937E801B6A230600A43B26 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC937E7F1B6A230600A43B26 /* FourthViewController.swift */; };
+		CC94F0391B8173D300586601 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94F0381B8173D300586601 /* HttpController.swift */; };
+		CC94F03D1B81842C00586601 /* HotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94F03C1B81842C00586601 /* HotelTableViewController.swift */; };
 		CCBED1361B71A7E000F31395 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBED1351B71A7E000F31395 /* WebViewController.swift */; };
 		CCED36991B61EA9700A4708C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED36981B61EA9700A4708C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +46,12 @@
 		CC0515841B6B21660068BBA9 /* Flower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		CC0515881B6B70690068BBA9 /* CollectionCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionCustomCell.swift; sourceTree = "<group>"; };
 		CC05158A1B6B725C0068BBA9 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CC5BFB0E1B7D81AF006CBE20 /* MenuCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionViewController.swift; sourceTree = "<group>"; };
+		CC5BFB101B7D989C006CBE20 /* MenuCollectionCustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCollectionCustomCell.swift; sourceTree = "<group>"; };
+		CC5BFB121B7D9E0B006CBE20 /* FifthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthViewController.swift; sourceTree = "<group>"; };
+		CC5BFB141B7D9E40006CBE20 /* SixthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SixthViewController.swift; sourceTree = "<group>"; };
+		CC5BFB161B7DE0BF006CBE20 /* HotelMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelMapViewController.swift; sourceTree = "<group>"; };
+		CC5BFB181B7DEB3F006CBE20 /* HotelSingle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelSingle.swift; sourceTree = "<group>"; };
 		CC934AF71B5DEEE9004B6690 /* UI_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UI_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC934AFB1B5DEEE9004B6690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC934AFC1B5DEEE9004B6690 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +64,8 @@
 		CC934B121B5DEEE9004B6690 /* UI_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_SwiftTests.swift; sourceTree = "<group>"; };
 		CC934B1C1B5DEFC6004B6690 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		CC937E7F1B6A230600A43B26 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		CC94F0381B8173D300586601 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
+		CC94F03C1B81842C00586601 /* HotelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTableViewController.swift; sourceTree = "<group>"; };
 		CCBED1351B71A7E000F31395 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CCED36981B61EA9700A4708C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,6 +123,14 @@
 				CC0515881B6B70690068BBA9 /* CollectionCustomCell.swift */,
 				CC05158A1B6B725C0068BBA9 /* CollectionViewController.swift */,
 				CCBED1351B71A7E000F31395 /* WebViewController.swift */,
+				CC5BFB0E1B7D81AF006CBE20 /* MenuCollectionViewController.swift */,
+				CC5BFB101B7D989C006CBE20 /* MenuCollectionCustomCell.swift */,
+				CC5BFB121B7D9E0B006CBE20 /* FifthViewController.swift */,
+				CC5BFB141B7D9E40006CBE20 /* SixthViewController.swift */,
+				CC5BFB161B7DE0BF006CBE20 /* HotelMapViewController.swift */,
+				CC5BFB181B7DEB3F006CBE20 /* HotelSingle.swift */,
+				CC94F0381B8173D300586601 /* HttpController.swift */,
+				CC94F03C1B81842C00586601 /* HotelTableViewController.swift */,
 			);
 			path = UI_Swift;
 			sourceTree = "<group>";
@@ -236,13 +260,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5BFB171B7DE0BF006CBE20 /* HotelMapViewController.swift in Sources */,
+				CC5BFB0F1B7D81AF006CBE20 /* MenuCollectionViewController.swift in Sources */,
+				CC5BFB151B7D9E40006CBE20 /* SixthViewController.swift in Sources */,
 				CC05158B1B6B725C0068BBA9 /* CollectionViewController.swift in Sources */,
+				CC94F03D1B81842C00586601 /* HotelTableViewController.swift in Sources */,
 				CC0515851B6B21660068BBA9 /* Flower.swift in Sources */,
 				CC934B1D1B5DEFC6004B6690 /* SecondViewController.swift in Sources */,
+				CC94F0391B8173D300586601 /* HttpController.swift in Sources */,
 				CCBED1361B71A7E000F31395 /* WebViewController.swift in Sources */,
+				CC5BFB111B7D989C006CBE20 /* MenuCollectionCustomCell.swift in Sources */,
 				CC934AFF1B5DEEE9004B6690 /* ViewController.swift in Sources */,
 				CCED36991B61EA9700A4708C /* ThirdViewController.swift in Sources */,
+				CC5BFB191B7DEB3F006CBE20 /* HotelSingle.swift in Sources */,
 				CC0515891B6B70690068BBA9 /* CollectionCustomCell.swift in Sources */,
+				CC5BFB131B7D9E0B006CBE20 /* FifthViewController.swift in Sources */,
 				CC934AFD1B5DEEE9004B6690 /* AppDelegate.swift in Sources */,
 				CC0515831B6B134C0068BBA9 /* CustomCell.swift in Sources */,
 				CC937E801B6A230600A43B26 /* FourthViewController.swift in Sources */,
