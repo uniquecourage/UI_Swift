@@ -12,7 +12,7 @@ let reuseMenuIdentifier = "cell"
 
 class MenuCollectionViewController: UICollectionViewController {
 
-    var imgAry = ["star.png","star.png","star.png"]
+    var imgAry = ["star.png","star.png","star.png","star.png","star.png"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -53,6 +53,12 @@ class MenuCollectionViewController: UICollectionViewController {
         } else if indexPath.row == 2 {
             //"toHotelView"為segue中identifier的值, 此例為選擇後跳回Hotel View頁面
             self.performSegueWithIdentifier("toHotelView", sender: "")
+        } else if indexPath.row == 3 {
+            //"toHotelView"為segue中identifier的值, 此例為選擇後跳回UserDefault View頁面
+            self.performSegueWithIdentifier("toUserDefaultView", sender: "")
+        } else if indexPath.row == 4 {
+            //"toHotelView"為segue中identifier的值, 此例為選擇後跳回ReadTXT View頁面
+            self.performSegueWithIdentifier("toReadTXTView", sender: "")
         }
     }
 }

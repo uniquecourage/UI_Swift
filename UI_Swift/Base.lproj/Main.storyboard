@@ -42,6 +42,150 @@
             </objects>
             <point key="canvasLocation" x="-1238" y="-6"/>
         </scene>
+        <!--User Default View Controller-->
+        <scene sceneID="shP-XT-ZTG">
+            <objects>
+                <viewController id="O3P-Yk-WHQ" customClass="UserDefaultViewController" customModule="UI_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="iIn-4h-QB8"/>
+                        <viewControllerLayoutGuide type="bottom" id="NGt-cI-hTx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H04-zC-KPZ">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="輸入姓名:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWO-An-Sdv">
+                                <rect key="frame" x="16" y="20" width="84" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.36287127670000002" green="0.001957281531" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dfO-qI-TcA">
+                                <rect key="frame" x="102" y="16" width="185" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yYe-Qa-g3S">
+                                <rect key="frame" x="54" y="77" width="84" height="30"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="輸入完成">
+                                    <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton_input:" destination="O3P-Yk-WHQ" eventType="touchUpInside" id="7s7-Xb-use"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0N-Qo-alF">
+                                <rect key="frame" x="183" y="77" width="81" height="30"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="清除資料">
+                                    <color key="titleColor" red="1" green="0.11025438410000001" blue="0.17541995590000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="UIButton_clear:" destination="O3P-Yk-WHQ" eventType="touchUpInside" id="oiL-db-X9a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dmh-bn-Gp0">
+                                <rect key="frame" x="54" y="154" width="84" height="30"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleColor" red="0.5" green="0.28361517510000001" blue="0.24360276780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="361-oJ-axs" kind="show" identifier="backToMenuCollectionView" id="Dxw-XJ-trH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.73503786869999999" green="1" blue="0.86506092469999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="UITextField_name" destination="dfO-qI-TcA" id="kB9-6d-9wu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oD7-Yl-e2S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1239" y="708"/>
+        </scene>
+        <!--ReadTXT View Controller-->
+        <scene sceneID="KnM-Gs-5Ym">
+            <objects>
+                <viewController id="2JG-f4-Sew" customClass="ReadTXTViewController" customModule="UI_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4NQ-yd-rHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Q9a-7W-4LW"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="f9a-Gn-l3a">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="名:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GHd-WL-zsm">
+                                <rect key="frame" x="16" y="20" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b3v-5w-LeN">
+                                <rect key="frame" x="66" y="20" width="204" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vJP-UG-deX">
+                                <rect key="frame" x="16" y="63" width="150" height="120"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="資料編號:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NuB-QZ-4Q3">
+                                <rect key="frame" x="16" y="241" width="86" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8D2-fG-poy">
+                                <rect key="frame" x="124" y="241" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="nWl-DX-3VE">
+                                <rect key="frame" x="16" y="285" width="94" height="29"/>
+                                <connections>
+                                    <action selector="stepperChange:" destination="2JG-f4-Sew" eventType="touchUpInside" id="sLl-WR-tpJ"/>
+                                </connections>
+                            </stepper>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W35-QY-kCL">
+                                <rect key="frame" x="16" y="354" width="73" height="30"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="返回">
+                                    <color key="titleColor" red="0.5" green="0.28361517510000001" blue="0.24360276780000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="361-oJ-axs" kind="presentation" identifier="backToMenuCollectionView_2" id="7o6-Ds-KQX"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tec-E4-wA6">
+                                <rect key="frame" x="174" y="63" width="201" height="168"/>
+                                <color key="backgroundColor" red="0.99496499679999995" green="0.89057956279999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99496499679999995" green="0.89057956279999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <connections>
+                        <outlet property="UIImageView_pic" destination="vJP-UG-deX" id="jmG-Rg-yGe"/>
+                        <outlet property="UILabel_num" destination="8D2-fG-poy" id="1nf-lt-7mH"/>
+                        <outlet property="UILabel_title" destination="b3v-5w-LeN" id="Aop-fN-ipU"/>
+                        <outlet property="UIStepper_select" destination="nWl-DX-3VE" id="nPA-IB-nFw"/>
+                        <outlet property="UITextView_poem" destination="Tec-E4-wA6" id="WHh-Gk-J6o"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dcu-63-YAe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1238" y="1473"/>
+        </scene>
         <!--Fifth View Controller-->
         <scene sceneID="7mw-XB-M5I">
             <objects>
@@ -139,6 +283,8 @@
                         <segue destination="vXZ-lx-hvc" kind="show" identifier="toMainView" id="twa-oA-Qae"/>
                         <segue destination="DcD-s2-ahJ" kind="show" identifier="toFifthView" id="FAI-s3-jKU"/>
                         <segue destination="NpJ-W2-8hg" kind="showDetail" identifier="toHotelView" id="8Pm-so-cyK"/>
+                        <segue destination="O3P-Yk-WHQ" kind="showDetail" identifier="toUserDefaultView" id="YBL-vn-z6q"/>
+                        <segue destination="2JG-f4-Sew" kind="showDetail" identifier="toReadTXTView" id="0an-2P-IRI"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EUu-La-iDn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1103,11 +1249,11 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="daZ-lf-Khm"/>
-        <segue reference="13H-rD-tDc"/>
-        <segue reference="vbb-Na-SML"/>
+        <segue reference="twa-oA-Qae"/>
+        <segue reference="7o6-Ds-KQX"/>
+        <segue reference="8Pm-so-cyK"/>
         <segue reference="cSp-b0-rQK"/>
-        <segue reference="5oE-bZ-aGX"/>
-        <segue reference="l1p-JQ-iW0"/>
+        <segue reference="daZ-lf-Khm"/>
+        <segue reference="vbb-Na-SML"/>
     </inferredMetricsTieBreakers>
 </document>
