@@ -33,6 +33,7 @@
 		CC94F03D1B81842C00586601 /* HotelTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC94F03C1B81842C00586601 /* HotelTableViewController.swift */; };
 		CCBED1361B71A7E000F31395 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBED1351B71A7E000F31395 /* WebViewController.swift */; };
 		CCC4F6CB1B9938850026B30B /* CreateFileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4F6CA1B9938850026B30B /* CreateFileViewController.swift */; };
+		CCC4F6CD1B998D8E0026B30B /* NotePadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC4F6CC1B998D8E0026B30B /* NotePadViewController.swift */; };
 		CCED36991B61EA9700A4708C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCED36981B61EA9700A4708C /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -77,6 +78,7 @@
 		CC94F03C1B81842C00586601 /* HotelTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelTableViewController.swift; sourceTree = "<group>"; };
 		CCBED1351B71A7E000F31395 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		CCC4F6CA1B9938850026B30B /* CreateFileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateFileViewController.swift; sourceTree = "<group>"; };
+		CCC4F6CC1B998D8E0026B30B /* NotePadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotePadViewController.swift; sourceTree = "<group>"; };
 		CCED36981B61EA9700A4708C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				CC83C6441B9686B2000ED609 /* UserDefaultViewController.swift */,
 				CC83C64A1B96A962000ED609 /* ReadTXTViewController.swift */,
 				CCC4F6CA1B9938850026B30B /* CreateFileViewController.swift */,
+				CCC4F6CC1B998D8E0026B30B /* NotePadViewController.swift */,
 			);
 			path = UI_Swift;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				CC934AFD1B5DEEE9004B6690 /* AppDelegate.swift in Sources */,
 				CC83C64B1B96A962000ED609 /* ReadTXTViewController.swift in Sources */,
 				CC0515831B6B134C0068BBA9 /* CustomCell.swift in Sources */,
+				CCC4F6CD1B998D8E0026B30B /* NotePadViewController.swift in Sources */,
 				CC937E801B6A230600A43B26 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
