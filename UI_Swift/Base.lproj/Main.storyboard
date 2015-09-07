@@ -195,6 +195,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="PX2-cP-Q36" id="XBx-tI-QfH"/>
+                                    <outlet property="delegate" destination="PX2-cP-Q36" id="Z0e-6c-VTL"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" red="0.86939569790411664" green="1" blue="0.97413828862496432" alpha="1" colorSpace="calibratedRGB"/>
@@ -1457,12 +1461,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="7o6-Ds-KQX"/>
         <segue reference="fos-37-mOH"/>
-        <segue reference="twa-oA-Qae"/>
-        <segue reference="cSp-b0-rQK"/>
-        <segue reference="daZ-lf-Khm"/>
-        <segue reference="vbb-Na-SML"/>
+        <segue reference="bcT-QQ-vcO"/>
+        <segue reference="DYB-Iy-zee"/>
+        <segue reference="L97-TP-FyB"/>
+        <segue reference="2i7-SL-NKR"/>
+        <segue reference="6dc-JW-gRU"/>
         <segue reference="l1p-JQ-iW0"/>
     </inferredMetricsTieBreakers>
 </document>

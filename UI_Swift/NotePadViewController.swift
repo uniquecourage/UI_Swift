@@ -15,15 +15,28 @@ class NotePadViewController: UIViewController {
     @IBOutlet weak var UITextView_content: UITextView!
     
     @IBOutlet weak var UITableView_file: UITableView!
+    // tableView裡的Datasource和Delegate需與ViewController設定連結
+    
+    let fileManager = NSFileManager.defaultManager()
     
     var txtFileList:Array<String> = [] // 檔案名稱陣列
     var fm:NSFileManager = NSFileManager() // 建立檔案管理物件
-    var rootPath = NSHomeDirectory() + "/Documents/" // 根目錄
+    //var rootPath:String = NSHomeDirectory() + "/Documents/" // 根目錄
+    var rootPath:String = NSHomeDirectory() + "/Documents/NotePad/" // 自訂目錄
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.UITableView_file.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
+        
+        var exist = fileManager.fileExistsAtPath(rootPath) // 取得目錄路徑是否存在
+        if !exist { // 若目錄路徑不存在
+            var deliverablePathString = rootPath
+            // 新增自訂目錄
+            NSFileManager.defaultManager().createDirectoryAtPath(deliverablePathString, withIntermediateDirectories: false, attributes: nil, error: nil)
+        }
+        
         txtFileList.removeAll(keepCapacity: true) // 清除檔案列表
         var fileList:Array<NSString> = fm.subpathsAtPath(rootPath) as! Array<NSString> //取得所有檔案名稱
         // 取得附加檔名為 .txt的檔案
@@ -50,14 +63,19 @@ class NotePadViewController: UIViewController {
             if file.substringWithRange(NSRange(location: file.length-4, length: 4)) != ".txt" {
                 UITextField_filename.text = UITextField_filename.text + ".txt"
             }
-            var fileName = rootPath + UITextField_filename.text // 完整路徑
+            var fileName:String = rootPath + UITextField_filename.text // 完整路徑
             var flag = UITextView_content.text.writeToFile(fileName, atomically: true, encoding: NSUTF8StringEncoding, error: nil) // 寫入檔案
             
             if flag { // 寫入成功
                 var alertView:UIAlertView = UIAlertView(title: "成功", message: "文件寫入成功!", delegate: self, cancelButtonTitle: "確定") //
                 alertView.show()
                 if find(txtFileList, UITextField_filename.text) == nil { // 新檔案
+                    NSLog("執行加入檔案名稱陣列")
                     txtFileList.append(UITextField_filename.text) // 加入檔案名稱陣列
+                    NSLog("txtFileList.count = " + String(txtFileList.count))
+                    for var index = 0 ; index < txtFileList.count ; ++index {
+                       NSLog("txtFileList[" + String(index) + "] = " + txtFileList[index])
+                    }
                 }
             } else { // 寫入失敗
                 var alertView:UIAlertView = UIAlertView(title: "失敗", message: "文件寫入失敗!", delegate: self, cancelButtonTitle: "確定") //
@@ -91,13 +109,17 @@ class NotePadViewController: UIViewController {
         UITableView_file.reloadData() // 更新檔案列表
     }
     
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1
+    }
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return txtFileList.count
     }
     
-    func tableView(tableView: UITableView, cellForRowsInSection indexPath: NSIndexPath) -> UITableViewCell {
+    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         var cell:UITableViewCell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath) as! UITableViewCell
+        NSLog("(列表項目內容) txtFileList[" + String(indexPath.row) + "] = " + txtFileList[indexPath.row])
         cell.textLabel!.text = txtFileList[indexPath.row] // 列表項目內容
         return cell
     }
